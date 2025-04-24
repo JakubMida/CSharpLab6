@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lab5ZadB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab5ZadB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="bntPrzycisk1" Content="1" HorizontalAlignment="Left" Margin="47,28,0,0" VerticalAlignment="Top" Height="39" Width="70" Click="bntPrzycisk1_Click"/>
+        <Button x:Name="bntPrzycisk2" Content="2" HorizontalAlignment="Left" Margin="47,83,0,0" VerticalAlignment="Top" Height="41" Width="70" Click="bntPrzycisk2_Click"/>
+        <Button x:Name="bntPrzycisk3" Content="3" HorizontalAlignment="Left" Margin="47,166,0,0" VerticalAlignment="Top" Height="41" Width="70" Click="bntPrzycisk3_Click"/>
+        <ListBox x:Name="listWynik" HorizontalAlignment="Left" Height="207" Margin="192,28,0,0" VerticalAlignment="Top" Width="434" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="bntPrzycisk4" Content="4" HorizontalAlignment="Left" Margin="47,217,0,0" VerticalAlignment="Top" Height="39" Width="70" Click="bntPrzycisk4_Click"/>
+        <Button x:Name="bntPrzycisk5" Content="5" HorizontalAlignment="Left" Margin="47,261,0,0" VerticalAlignment="Top" Height="34" Width="70" Click="bntPrzycisk5_Click"/>
+        <Button x:Name="btnMinMax" Content="MinMax" HorizontalAlignment="Left" Margin="192,246,0,0" VerticalAlignment="Top" Height="32" Width="65" Click="btnMinMax_Click"/>
+        <Button x:Name="bntZakresCen" Content="Zakres cen" HorizontalAlignment="Left" Margin="278,246,0,0" VerticalAlignment="Top" Height="32" Width="79" Click="bntZakresCen_Click"/>
+        <Button x:Name="btnString" Content="String" HorizontalAlignment="Left" Margin="378,249,0,0" VerticalAlignment="Top" Height="29" Width="64" Click="btnString_Click"/>
+
+    </Grid>
+</Window>

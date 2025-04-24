@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab6ZadA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6ZadA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnFunkcja1" Content="Funkcja 1" HorizontalAlignment="Left" Margin="60,26,0,0" VerticalAlignment="Top" Height="42" Width="64" Click="btnFunkcja1_Click"/>
+        <Button x:Name="btnFunckja2" Content="Funkcja 2" HorizontalAlignment="Left" Margin="60,89,0,0" VerticalAlignment="Top" Height="40" Width="64" Click="btnFunckja2_Click"/>
+        <Button x:Name="btnFunckaja3" Content="Funkcja 3" HorizontalAlignment="Left" Margin="60,150,0,0" VerticalAlignment="Top" Height="39" Width="64" Click="btnFunckaja3_Click"/>
+        <Label x:Name="lblX" Content="0" HorizontalAlignment="Left" Margin="256,26,0,0" VerticalAlignment="Top" Height="42" Width="231"/>
+        <Label x:Name="lblY" Content="0" HorizontalAlignment="Left" Margin="256,83,0,0" VerticalAlignment="Top" Height="46" Width="144"/>
+        <Label x:Name="lblW" Content="0" HorizontalAlignment="Left" Margin="256,150,0,0" VerticalAlignment="Top" Height="39" Width="231"/>
+
+    </Grid>
+</Window>
