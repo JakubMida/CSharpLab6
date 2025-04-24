@@ -1,0 +1,14 @@
+﻿<Window x:Class="kolokwium5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kolokwium5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnDodaj" Content="Dodaj na stos" HorizontalAlignment="Left" Margin="32,41,0,0" VerticalAlignment="Top" Click="btnDodaj_Click"/>
+        <Button x:Name="btnZdejmij" Content="Zdejmij ze stosu" HorizontalAlignment="Left" Margin="52,114,0,0" VerticalAlignment="Top" Click="btnZdejmij_Click"/>
+        <ListBox x:Name="lista" HorizontalAlignment="Left" Height="176" Margin="198,41,0,0" VerticalAlignment="Top" Width="307" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+    </Grid>
+</Window>
