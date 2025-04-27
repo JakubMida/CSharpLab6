@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnFunkcja1" Content="Funkcja 1" HorizontalAlignment="Left" Margin="31,20,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="btnFunkcja1_Click"/>
+        <Button x:Name="btnFunkcja3" Content="Funkcja 3" HorizontalAlignment="Left" Margin="31,90,0,0" VerticalAlignment="Top" Width="80" Height="30"/>
+        <Button x:Name="btnFunkcja2" Content="Funkcja 2" HorizontalAlignment="Left" Margin="31,55,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="btnFunkcja2_Click"/>
+        <Label x:Name="lblX" Content="" HorizontalAlignment="Left" Margin="200,22,0,0" VerticalAlignment="Top" Width="220" Height="50" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Label x:Name="lblY" Content="" HorizontalAlignment="Left" Margin="200,86,0,0" VerticalAlignment="Top" Width="220" Height="50" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Label x:Name="lblWartosc" Content="" HorizontalAlignment="Left" Margin="200,153,0,0" VerticalAlignment="Top" Height="50" Width="220" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Button x:Name="btnCzysc" Content="Czyść" HorizontalAlignment="Left" Margin="31,125,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="btnCzysc_Click"/>
 
     </Grid>
 </Window>

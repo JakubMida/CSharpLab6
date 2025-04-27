@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lab6WDomu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6WDomu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="800">
+    <Grid>
+        <Button x:Name="btnZad1" Content="Ilość &gt; 5" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="113" Height="30" Click="btnZad1_Click" Background="#FFDDE678"/>
+        <Button x:Name="btnZad2" Content="Wybrana kategoria" HorizontalAlignment="Left" Margin="20,55,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF54F14C" Click="btnZad2_Click"/>
+        <Button x:Name="btnZad3" Content="Cena &gt; średnia" HorizontalAlignment="Left" Margin="20,117,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FFF65656" Click="btnZad3_Click"/>
+        <Button x:Name="btnZad4" Content="Kat (ilosc, sr ceny)" HorizontalAlignment="Left" Margin="20,152,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF00F6FF" Click="btnZad4_Click"/>
+        <Button x:Name="btnZad5" Content="Najdroższy item" HorizontalAlignment="Left" Margin="20,187,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FFE9FF00" Click="btnZad5_Click"/>
+        <ListBox x:Name="listaWynikow" HorizontalAlignment="Left" Height="260" Margin="196,20,0,0" VerticalAlignment="Top" Width="316" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <ComboBox x:Name="cbxKategoria" HorizontalAlignment="Left" Margin="20,90,0,0" VerticalAlignment="Top" Width="113" SelectedIndex="0" Background="#FF54F14C" BorderBrush="#FF54F14C">
+            <ComboBoxItem Content="Elektronika"/>
+            <ComboBoxItem Content="Spożywcze"/>
+            <ComboBoxItem Content="Odzież"/>
+        </ComboBox>
+        <Button x:Name="btnIlosc" Content="Zakres ilości" HorizontalAlignment="Left" Margin="20,222,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF44FF00" Click="btnIlosc_Click"/>
+        <Button x:Name="btnZakresCen" Content="Zakres cen" HorizontalAlignment="Left" Margin="20,257,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF44FF00" Click="btnZakresCen_Click"/>
+        <Button x:Name="btnZakresStringow" Content="Zakres stringów" HorizontalAlignment="Left" Margin="20,292,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF44FF00" Click="btnZakresStringow_Click"/>
+        <Button x:Name="btnDomowe1" Content="Wyświelt (Action)" HorizontalAlignment="Left" Margin="20,327,0,0" VerticalAlignment="Top" Height="30" Width="113" Background="#FFFF00B8" Click="btnDomowe1_Click"/>
+        <Label x:Name="lblDomowe" Content="" HorizontalAlignment="Left" Height="70" Margin="196,287,0,0" VerticalAlignment="Top" Width="316" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+        <Button x:Name="btnDomowe2" Content="Pole i obwód koła" HorizontalAlignment="Left" Margin="20,362,0,0" VerticalAlignment="Top" Width="113" Height="30" Background="#FF002BFF" Foreground="White" Click="btnDomowe2_Click"/>
+        <TextBox x:Name="txtPromień" HorizontalAlignment="Left" Margin="76,397,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="57" Height="27" VerticalContentAlignment="Center"/>
+        <Label x:Name="lblPromien" Content="R" HorizontalAlignment="Left" Margin="20,397,0,0" VerticalAlignment="Top" Width="51" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="1,1,1,1"/>
+
+    </Grid>
+</Window>
