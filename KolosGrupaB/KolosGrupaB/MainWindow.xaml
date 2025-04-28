@@ -1,0 +1,14 @@
+﻿<Window x:Class="KolosGrupaB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KolosGrupaB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnPies" Content="Pies" HorizontalAlignment="Left" Height="43" Margin="31,45,0,0" VerticalAlignment="Top" Width="97" Click="btnPies_Click"/>
+        <ListBox x:Name="listPies" HorizontalAlignment="Left" Height="185" Margin="194,32,0,0" VerticalAlignment="Top" Width="471" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+    </Grid>
+</Window>
